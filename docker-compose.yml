@@ -5,3 +5,4 @@ services:
     volumes:
       - "./:/usr/src/app"
     command: /usr/src/app/webchain-miner -c=/usr/src/app/config.json
+    restart: always
